@@ -1,6 +1,7 @@
 body,
 html {
     font-family: "Arial";
+    scroll-behavior: smooth;
 
 }
 
@@ -216,7 +217,10 @@ html {
     line-height: 22px;
 }
 
-
+.features-list{
+    min-height: 125px;
+    /* min-width: 300px; */
+}
 .list-title {
     font-size: 24px;
     font-weight: 400;
@@ -270,6 +274,40 @@ html {
 
 .scores-info{
     width: 420px;
+}
+
+.card-custom{
+    background-color: #FFFFFF14;
+    border-radius: 10px;
+}
+.card-custom:nth-child(odd){
+    margin-left: 150px;
+}
+.card-custom .card-text{
+    font-size: 18px;
+}
+
+.img-card{
+    width: 64px;
+    height: 64px;
+    box-shadow: 7px 3px 0 0 #FFB548;
+}
+
+.name-card{
+    font-size: 24px;
+    line-height: 1.5rem;
+    color: #FFB548;
+}
+.job-card{
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff ;
+}
+
+.date-card{
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
 }
 
 .email-subs {
